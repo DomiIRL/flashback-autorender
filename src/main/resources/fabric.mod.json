@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "flashback-autorender",
+  "version": "0.1.0",
+  "name": "Flashback Autorender",
+  "description": "Renders a Flashback scene when flashback/autorender.json exists, then quits.",
+  "authors": ["DomiIRL"],
+  "environment": "client",
+  "entrypoints": { "client": ["de.domiirl.autorender.AutoRender"] },
+  "depends": {
+    "fabricloader": ">=0.19",
+    "minecraft": "26.3",
+    "fabric-api": "*",
+    "flashback": "*"
+  }
+}
